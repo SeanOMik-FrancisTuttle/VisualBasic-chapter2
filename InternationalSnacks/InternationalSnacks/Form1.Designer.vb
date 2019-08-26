@@ -62,21 +62,24 @@ Partial Class Form1
         '
         'btnBurrito
         '
+        Me.btnBurrito.BackColor = System.Drawing.Color.DarkSalmon
+        Me.btnBurrito.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btnBurrito.Location = New System.Drawing.Point(37, 190)
         Me.btnBurrito.Name = "btnBurrito"
         Me.btnBurrito.Size = New System.Drawing.Size(75, 23)
         Me.btnBurrito.TabIndex = 5
         Me.btnBurrito.Text = "Bean burrito"
-        Me.btnBurrito.UseVisualStyleBackColor = True
+        Me.btnBurrito.UseVisualStyleBackColor = False
         '
         'btnFalafel
         '
+        Me.btnFalafel.BackColor = System.Drawing.Color.DarkSalmon
         Me.btnFalafel.Location = New System.Drawing.Point(168, 190)
         Me.btnFalafel.Name = "btnFalafel"
         Me.btnFalafel.Size = New System.Drawing.Size(75, 23)
         Me.btnFalafel.TabIndex = 7
         Me.btnFalafel.Text = "Falafel"
-        Me.btnFalafel.UseVisualStyleBackColor = True
+        Me.btnFalafel.UseVisualStyleBackColor = False
         '
         'picFalafel
         '
@@ -91,12 +94,13 @@ Partial Class Form1
         '
         'btnGreekYogurt
         '
+        Me.btnGreekYogurt.BackColor = System.Drawing.Color.DarkSalmon
         Me.btnGreekYogurt.Location = New System.Drawing.Point(286, 190)
         Me.btnGreekYogurt.Name = "btnGreekYogurt"
         Me.btnGreekYogurt.Size = New System.Drawing.Size(100, 23)
         Me.btnGreekYogurt.TabIndex = 9
         Me.btnGreekYogurt.Text = "Greek Yogurt"
-        Me.btnGreekYogurt.UseVisualStyleBackColor = True
+        Me.btnGreekYogurt.UseVisualStyleBackColor = False
         '
         'picGreekYogurt
         '
@@ -111,12 +115,13 @@ Partial Class Form1
         '
         'btnSpringRolls
         '
+        Me.btnSpringRolls.BackColor = System.Drawing.Color.DarkSalmon
         Me.btnSpringRolls.Location = New System.Drawing.Point(430, 190)
         Me.btnSpringRolls.Name = "btnSpringRolls"
         Me.btnSpringRolls.Size = New System.Drawing.Size(75, 23)
         Me.btnSpringRolls.TabIndex = 11
         Me.btnSpringRolls.Text = "Spring Rolls"
-        Me.btnSpringRolls.UseVisualStyleBackColor = True
+        Me.btnSpringRolls.UseVisualStyleBackColor = False
         '
         'picSpringRolls
         '
@@ -131,13 +136,14 @@ Partial Class Form1
         '
         'btnSelect
         '
+        Me.btnSelect.BackColor = System.Drawing.Color.DarkSalmon
         Me.btnSelect.Enabled = False
         Me.btnSelect.Location = New System.Drawing.Point(233, 295)
         Me.btnSelect.Name = "btnSelect"
         Me.btnSelect.Size = New System.Drawing.Size(75, 23)
         Me.btnSelect.TabIndex = 12
         Me.btnSelect.Text = "Select"
-        Me.btnSelect.UseVisualStyleBackColor = True
+        Me.btnSelect.UseVisualStyleBackColor = False
         '
         'lblConfirm
         '
@@ -166,7 +172,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.picBurrito)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Healthy Snack Selection"
         CType(Me.picBurrito, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picFalafel, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picGreekYogurt, System.ComponentModel.ISupportInitialize).EndInit()

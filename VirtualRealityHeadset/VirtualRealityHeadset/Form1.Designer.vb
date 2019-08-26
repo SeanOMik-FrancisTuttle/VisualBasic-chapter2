@@ -36,6 +36,7 @@ Partial Class Form1
         '
         Me.lblHeader.AutoSize = True
         Me.lblHeader.Font = New System.Drawing.Font("Tahoma", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHeader.ForeColor = System.Drawing.Color.DarkGray
         Me.lblHeader.Location = New System.Drawing.Point(123, 4)
         Me.lblHeader.Name = "lblHeader"
         Me.lblHeader.Size = New System.Drawing.Size(205, 39)
@@ -104,7 +105,7 @@ Partial Class Form1
         Me.Controls.Add(Me.picCrown)
         Me.Controls.Add(Me.lblHeader)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "VR Forward"
         CType(Me.picCrown, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picEarbud, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
